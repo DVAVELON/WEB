@@ -1,0 +1,211 @@
+/* Измененине заднего фона */
+body {
+  background-color: rgb(36, 4, 151);
+  color: rgb(192, 111, 45);
+
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Times New Roman", Times, serif;
+  /* font: normal 16px Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+
+  /* font-family:'Times New Roman', Times, serif; */
+}
+/* Ссылки */
+a {
+  color: #0fccf9;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: red;
+}
+a:visited {
+  color: rgb(172, 31, 31);
+}
+/* Изменение фотки */
+.firstavatar {
+  width: 250px;
+  border-radius: 30%;
+  box-shadow: 12px 10px 10px 6px rgb(3, 201, 250);
+}
+.firstblock {
+  margin-bottom: 20px;
+  display: flex;
+}
+@media (max-width: 700px) {
+  .firstblock {
+    text-align: center;
+    display: block;
+  }
+}
+.block-text {
+  margin-left: 40px;
+}
+.block-text h4 {
+  margin-bottom: 5px;
+}
+/* Изменение текста */
+.firstblock p {
+  color: #0fccf9;
+  margin: 0;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: none;
+  /* text-transform:uppercase; */
+  /* letter-spacing: 5px; */
+  /* word-spacing: 42px; */
+}
+/* Модель инсты */
+.first {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 30px;
+}
+/* .instagram {
+  background: rgb(0, 255, 13); */
+/* padding: 15px;
+  padding: 15px 40px; */
+/* padding: 15px 20px 25px 220px; */
+/* padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 240px;
+  padding-right: 25px;
+  border: 5px solid red;
+  border-radius: 50px;
+  border-bottom-style: dotted;
+  margin: 5px;
+  border-top-width: 15px;
+  border-right-color: blueviolet; */
+/* } */
+/* .model > div {
+  float: left;
+  background: black;
+  height: 200px;
+  border: 4px solid red;
+  width: 25%;
+  box-sizing: border-box;
+} */
+.bg-yellow {
+  background: #fff9dc;
+}
+.bg-green {
+  background: #e5ffe7;
+}
+.bg-red {
+  background: #ffe5e5;
+}
+.bg-black {
+  background: black;
+}
+
+.oll {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 30px;
+}
+.oll h2 {
+  margin-bottom: 10px;
+}
+.hobbi {
+  background: rgb(51, 24, 24);
+  border-radius: 30px;
+  padding: 40px;
+}
+.oll.bg-yellow h2 {
+  background: rgb(37, 184, 135);
+  border-radius: 30px;
+  padding: 20px;
+}
+.hobbi li {
+  color: rgb(0, 162, 255);
+  margin-bottom: 10px;
+}
+.rabota {
+  width: 100%;
+}
+.rabota td {
+  padding-bottom: 20px;
+}
+.rabota td:nth-child(1),
+.rabota td:nth-child(2),
+.rabota td:nth-child(3) {
+  color: rgb(11, 32, 126);
+}
+/* .rabota tr:nth-child(even){
+  background: red;
+}  */
+.rieltor-and-games {
+  list-style: none;
+  padding: 0;
+}
+.rieltor-and-games li {
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #0fccf9;
+}
+.contact h2 {
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+  font-size: 20px;
+  color: red;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid;
+  color: black;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+.row > .form-group {
+  width: 50%;
+  margin-right: 50px;
+}
+.row > .form-group:first-child {
+  margin-right: 20px;
+}
+.najimat {
+  color: rgb(124, 9, 9);
+  background: rgb(167, 167, 194);
+  padding: 15px 20px;
+  border-radius: 20px;
+  border: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+}
+.najimat:hover {
+  opacity: 0.9;
+}
+/* position */
+/* .position{
+  position: relative;
+border: 4px solid black;
+margin-top: 40px;
+padding: 20px;
+height: 300px;
+}
+
+.box{
+  position: fixed;
+  top: 0;
+  left: 0px;
+  width: 100%;
+  height: 50px;
+  background: lightcoral;
+} */
